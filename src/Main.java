@@ -8,17 +8,16 @@ public class Main {
         int i=a+b;
         int y=c+d;
 
-        System.out.println(a+b);
-        System.out.println(c+d);
-        System.out.println((a+b)>=(c+d));
+
+        System.out.println(i>=y);
         System.out.println(++i);
         System.out.println(y=y-2);
 
-        String isIBiggerThanY=i>y ? "True" : "False";
-        System.out.println(isIBiggerThanY);
 
-        String multiplicityTo2=i%2==0 || y%2==0 ? "True" : "False";
-        System.out.println(multiplicityTo2);
+        System.out.println( i > y);
+
+
+        System.out.println((i%2==0) ^ (y%2==0));
 
 
     }
